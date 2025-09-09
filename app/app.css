@@ -7,9 +7,18 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  cursor: crosshair; 
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+
+* {
+  cursor: crosshair; 
+}
+
+a, button, [role="button"] {
+  cursor: crosshair; 
+}
+
+input, textarea {
+  cursor: text; 
 }

@@ -1,7 +1,7 @@
+import { useState, useEffect, use } from "react";
 import type { Route } from "./+types/home";
-import {Game} from "../componets/game";
-import {Hero} from "../componets/hero";
-
+import { Loading } from "../componets/loading";
+import { Hero } from "../componets/hero";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -11,10 +11,21 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
-    <>
-      <Hero />
-      <Game />
-    </>
+    <div>
+      {loading ? (
+        <Loading />
+      ) : (
+        <Hero />
+      )}
+    </div>
   );
 }

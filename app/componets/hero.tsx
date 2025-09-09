@@ -3,6 +3,7 @@
 import leo from "../assets/leo.jpg";
 import leos from "../assets/leos.png";
 import video from "../assets/roar.mp4";
+import {Link} from "react-router";
 export function Hero() {
     return (
         <>
@@ -13,7 +14,6 @@ export function Hero() {
     <img src={leos} className="absolute top-0 right-0 z-30" />
 </div>
 
-{/* Video section that appears after scroll */}
 <div className="relative w-full h-screen bg-[#0D0D0D]">
     <video 
         src={video}
@@ -23,7 +23,9 @@ export function Hero() {
         className="absolute mt-50 top-0 left-0 w-full h-full object-cover z-10"
     />
     <div className="absolute inset-0 flex items-center justify-center z-20 ">
-        <h2 className="text-white text-6xl font-serif">Watch The Hunt</h2>
+        <a href="../components/game.tsx" className="text-white text-8xl font-serif hover:text-gray-300 transition-colors">
+            <h2>Start The Hunt</h2>
+        </a>
     </div>
 </div>
 
