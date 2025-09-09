@@ -1,7 +1,17 @@
 export function Hero() {
     return (
-        <div>
-            <h1>Hero Component</h1>
-        </div>
+        <>
+            <div>
+                <div>
+                    <img src="" alt="Description" />
+                </div>
+                <div>
+                    <p>Meet The Leopards</p>
+                </div>
+                <div>
+                    <img src="path/to/image.jpg" alt="Description" />
+                </div>
+            </div>
+        </>
     );
 }
