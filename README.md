@@ -1,8 +1,9 @@
 # Leopard an intro 
 
 - To do :
-  - [ ] Hero slide with text silhouette
-  - [ ] add eyes
+  - [x] Hero slide with text silhouette
+     - [ ] have left time so will make loading page
+  - [x] add eyes
   - [x] come up with game idea
         
          Play as a leopard, mastering the hunt in darkness, daylight, mountains, rivers, and open ground.
