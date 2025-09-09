@@ -1,4 +1,4 @@
-# Leoprd an intro 
+# Leopard an intro 
 
 - To do :
   - [ ] Hero slide with text silhouette
