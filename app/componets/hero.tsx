@@ -1,17 +1,32 @@
+// hate to admit it is taking me more time than it should
+//
+import leo from "../assets/leo.jpg";
+import leos from "../assets/leos.png";
+import video from "../assets/roar.mp4";
 export function Hero() {
     return (
         <>
-            <div>
-                <div>
-                    <img src="" alt="Description" />
-                </div>
-                <div>
-                    <p>Meet The Leopards</p>
-                </div>
-                <div>
-                    <img src="path/to/image.jpg" alt="Description" />
-                </div>
-            </div>
+ <div className="relative w-full h-screen bg-[#0D0D0D]">
+    <img src={leo} className="absolute fit top-0 right-0 z-10" />
+    
+    <p className="sticky ml-10 top-1/4 left-20 z-20 text-white text-9xl font-serif"><p className=" top-1/5 text-white text-4xl font-serif">Nature's silent athletes</p>Meet The Leopards</p>
+    <img src={leos} className="absolute top-0 right-0 z-30" />
+</div>
+
+{/* Video section that appears after scroll */}
+<div className="relative w-full h-screen bg-[#0D0D0D]">
+    <video 
+        src={video}
+        autoPlay 
+        loop 
+        muted 
+        className="absolute mt-50 top-0 left-0 w-full h-full object-cover z-10"
+    />
+    <div className="absolute inset-0 flex items-center justify-center z-20 ">
+        <h2 className="text-white text-6xl font-serif">Watch The Hunt</h2>
+    </div>
+</div>
+
         </>
     );
 }

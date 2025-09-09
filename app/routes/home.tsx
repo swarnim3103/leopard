@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
 import {Game} from "../componets/game";
 import {Hero} from "../componets/hero";
-import {Motivate} from "../componets/motivate";
+
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -15,7 +15,6 @@ export default function Home() {
     <>
       <Hero />
       <Game />
-      <Motivate />
     </>
   );
 }
