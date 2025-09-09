@@ -7,3 +7,4 @@
   - [ ] come up with game logic
   - [ ] see if unity can be attached here
   - [ ] overall better performance 
+- while doing this also try to build the ui lib
