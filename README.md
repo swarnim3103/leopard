@@ -13,6 +13,19 @@
         
          Play as a leopard, mastering the hunt in darkness, daylight, mountains, rivers, and open ground.
          More of a pixelated game with levels and leopard strenght unocking along the way
+      - Graphics needed :
+        - Level 1:
+          - [ ] leopard
+          - [ ] prey
+          - [ ] grass
+          - [ ] tree
+        - Level 2:
+          - [ ] Underwater
+          - [ ] weed
+          - [ ] fish
+          - [ ] shells
+        - come up with more ideas ....
+                
   - [ ] come up with game logic
   - [x] see if unity can be attached here
     - [ ] turns out i can use webgl for this (so now build graphics for it)
