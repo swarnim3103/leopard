@@ -1,5 +1,10 @@
 # Leopard an intro 
 
+
+<img src="poster.png" alt="leopard" width="800">
+
+
+
 - To do :
   - [x] Hero slide with text silhouette
      - [ ] have left time so will make loading page
