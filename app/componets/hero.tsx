@@ -14,7 +14,7 @@ export function Hero() {
         <p className="text-white text-9xl font-serif">Meet The Leopards</p>
     </div>
     
-    <img src={leos} className="absolute top-0 right-0 z-30" />
+    {/* <img src={leos} className="absolute top-0 right-0 z-30" /> */}
 </div>
 
 <div className="relative w-full h-screen bg-[#0D0D0D]">

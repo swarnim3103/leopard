@@ -1,4 +1,9 @@
 import { motion } from "framer-motion";
+import palm from "../assets/load/palm.svg";
+import paw1 from "../assets/load/paw1.svg";
+import paw2 from "../assets/load/paw2.svg";
+import paw3 from "../assets/load/paw3.svg";
+import paw4 from "../assets/load/paw4.svg";
 export function Loading() {
   return (
     <>
