@@ -28,6 +28,6 @@
                 
   - [ ] come up with game logic
   - [x] see if unity can be attached here
-    - [ ] turns out i can use webgl for this (so now build graphics for it)
+    - [x] turns out i can use webgl for this (now the game is playble inside website)
   - [ ] overall better performance 
 - while doing this also try to build the ui lib
