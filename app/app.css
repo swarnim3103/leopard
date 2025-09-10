@@ -1,8 +1,40 @@
 @import "tailwindcss";
 
+/* Downloaded Pixel Fonts */
+@font-face {
+  font-family: 'PixelArt';
+  src: url('/fonts/pixel-art.woff2') format('woff2'),
+       url('/fonts/pixel-art.woff') format('woff'),
+       url('/fonts/pixel-art.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EightBit';
+  src: url('/fonts/8bit.woff2') format('woff2'),
+       url('/fonts/8bit.woff') format('woff'),
+       url('/fonts/8bit.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RetroGaming';
+  src: url('/fonts/retro-gaming.woff2') format('woff2'),
+       url('/fonts/retro-gaming.woff') format('woff'),
+       url('/fonts/retro-gaming.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-pixel: "Orbitron", "Share Tech Mono", monospace;
 }
 
 html,
@@ -22,3 +54,89 @@ a, button, [role="button"] {
 input, textarea {
   cursor: text; 
 }
+
+/* Downloaded Pixel Font Classes */
+.font-pixel-art {
+  font-family: 'PixelArt', 'Courier New', monospace;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  text-rendering: optimizeSpeed;
+  image-rendering: pixelated;
+}
+
+.font-8bit {
+  font-family: 'EightBit', 'Courier New', monospace;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-rendering: optimizeSpeed;
+  text-transform: uppercase;
+}
+
+.font-retro-gaming {
+  font-family: 'RetroGaming', 'Courier New', monospace;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  text-rendering: optimizeSpeed;
+}
+
+/* Enhanced Pixel Effects */
+.pixel-perfect {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+.pixel-glow {
+  text-shadow: 
+    0 0 5px currentColor,
+    0 0 10px currentColor,
+    0 0 15px currentColor,
+    0 0 20px currentColor;
+}
+
+.pixel-outline {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0 0 2px #000;
+}
+
+/* Pixel Font Styles */
+.font-pixel {
+  font-family: "Orbitron", "Share Tech Mono", monospace;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-rendering: optimizeSpeed;
+}
+
+.font-pixel-mono {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-rendering: optimizeSpeed;
+}
+
+.text-pixel-glow {
+  text-shadow: 
+    0 0 5px currentColor,
+    0 0 10px currentColor,
+    0 0 15px currentColor;
+}
+
+.text-pixel-outline {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
