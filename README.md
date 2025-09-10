@@ -7,7 +7,7 @@
 
 - To do :
   - [x] Hero slide with text silhouette
-     - [ ] have left time so will make loading page
+     - [x] have left time so will make loading page (couldn't work with separate svg with framer so used paw prints instead with loading lines)
   - [x] add eyes
   - [x] come up with game idea
         
