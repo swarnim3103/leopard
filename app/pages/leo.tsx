@@ -1,11 +1,11 @@
 export default function Leo(){
 return (
 <>
-<div className="w-full h-screen bg-black flex items-center justify-center">
+<div className="w-screen h-screen bg-black overflow-hidden">
       <iframe
         src="/game/index.html"
-        width="960"
-        height="600"
+        width="100%"
+        height="100%"
         title="Leopard Game"
         frameBorder="0"
         scrolling="no"
@@ -16,10 +16,10 @@ return (
         referrerPolicy="no-referrer-when-downgrade"
         style={{ 
           border: "none",
-          borderRadius: "8px",
-          boxShadow: "0 0 20px rgba(245, 166, 35, 0.5)"
+          width: "100vw",
+          height: "100vh"
         }}
-        className="max-w-full max-h-full"
+        className="w-full h-full block"
       />
 </div>
 </>
